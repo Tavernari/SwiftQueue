@@ -235,7 +235,7 @@ public final class SwiftQueueManagerBuilder {
 
     /// Listen for job
     public func set(listener: JobListener) -> Self {
-        params.listener? = listener
+        params.listener = listener
         return self
     }
 
